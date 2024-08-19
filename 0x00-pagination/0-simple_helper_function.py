@@ -2,7 +2,7 @@
 """
 Pagination helper function
 """
-import typing
+from typing import Tuple
 
 
 def index_range(page: int, page_size: int) -> Tuple[int, int]:
