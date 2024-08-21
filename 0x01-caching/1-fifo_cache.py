@@ -10,8 +10,8 @@ class FIFOCache(BaseCaching):
     """
     """
     def __init__(self):
-         super().__init__()
-         self.cache_data = OrderedDict()
+        super().__init__()
+        self.cache_data = OrderedDict()
 
     def put(self, key, item):
         """
