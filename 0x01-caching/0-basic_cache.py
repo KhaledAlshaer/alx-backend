@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Task 0
 """
-from BaseCaching.py import BaseCaching
+from BaseCaching import BaseCaching
 
 
 class BasicCache(BaseCaching):
